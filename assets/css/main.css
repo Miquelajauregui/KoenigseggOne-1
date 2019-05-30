@@ -1418,10 +1418,10 @@ input, select, textarea {
 	}
 
 		.gallery article {
-			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
-			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-			transition: transform 1s ease, opacity 1s ease;
+			-moz-transition: -moz-transform 1s ease, opacity 0 ease;
+			-webkit-transition: -webkit-transform 1s ease, opacity 0 ease;
+			-ms-transition: -ms-transform 1s ease, opacity 0 ease;
+			transition: transform 1s ease, opacity 0 ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -2051,8 +2051,8 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.125);
 				}
 
-				.main.dark .button.style2:active {
-					background-color: rgba(255, 255, 255, 0.25);
+				.main.dark .button.style2.active {
+					background-image: url("images/thumbs/01.png");
 				}
 
 				.main.dark .button.style2.down {
